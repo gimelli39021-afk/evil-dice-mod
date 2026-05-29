@@ -5,10 +5,10 @@
     "description": "Adds a cool die",
     "dice": [
         {
-            "ide": "my_cool_die",
+            "ide": "evil_die",
             "rarity": 1,
             "prio": 5,
-            "sprite": "sprites/my_die.png",
+            "sprite": "sprites/evil_die.png",
             "faces": [
                 {"value": 1000000},
                 {"value": 2000000},
