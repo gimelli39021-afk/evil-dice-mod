@@ -1,0 +1,26 @@
+{
+    "name": "bear5",
+    "author": "shagower",
+    "version": "1.0.0",
+    "description": "Adds a cool die",
+    "dice": [
+        {
+            "ide": "my_cool_die",
+            "rarity": 1,
+            "prio": 5,
+            "sprite": "sprites/my_die.png",
+            "faces": [
+                {"value": 1000000},
+                {"value": 2000000},
+                {"value": 3000000}
+            ],
+            "faces_desc": "evil [spr_dice_icon,0] 1/2/3",
+            "tag": ["faces_even","faces_odd"],
+            "kw": ["face"],
+            "effect": { "type": "mult_all", "value": 2000000 },
+            "title": "Cool Die",
+            "description": "Multiplies all dice by 200000 i think."
+        }
+    ],
+    "rings": []
+}
